@@ -5,7 +5,7 @@ import os
 
 
 username = 'GMail account'
-password = 'Your password'
+password = 'Password'
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com') #https://google.com/settings/security/lesssecureapps
 mail.login(username, password)
