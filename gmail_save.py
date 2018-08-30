@@ -15,7 +15,7 @@ mail.select('inbox')
 #Create new folder
 mail.create('Folder1')
 
-#List GMail folders
+#List folders
 mail.list()
 
 result, data = mail.uid('search', None, 'ALL')
