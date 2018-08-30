@@ -4,7 +4,7 @@ import mimetypes
 import os
 
 
-username = 'Your GMail account'
+username = 'GMail account'
 password = 'Your password'
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com') #https://google.com/settings/security/lesssecureapps
